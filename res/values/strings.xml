@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YouCantHide</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="you_are_it">You are it!</string>
+    <string name="run">RUN!!! (or hide)</string>
+    <string name="title_activity_registration_confirm">RegistrationConfirm</string>
+    <string name="game_list_button">Another Game!</string>
+    <string name="game_results_default"></string>
+    <string name="title_activity_game_creation">GameCreation</string>
+    <string name="title_activity_new_game_confirm">NewGameConfirm</string>
+    <string name="reg_first_name">First Name</string>
+    <string name="reg_last_name">Last Name</string>
+    <string name="reg_user_name">User Name</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_password_confirm">Re-Enter Password</string>
+    <string name="button_send">Send</string>
+    <string name="rg_field">Size of Playing Field:</string>
+    <string name="radio_field_sm">Small</string>
+    <string name="radio_field_md">Medium</string>
+    <string name="radio_field_lg">Large</string>
+    <string name="rg_numit">Number of Its:</string>
+    <string name="radio_num_it_sm">One It</string>
+    <string name="home_button">Home</string>
+    <string name="radio_num_it_md">Two Its</string>
+    <string name="radio_num_it_lg">Team (50% It)</string>
+    <string name="rg_duration">Game Duration:</string>
+    <string name="radio_duration_sm">20 sec</string>
+    <string name="radio_duration_md">30 sec</string>
+    <string name="radio_duration_lg">60 sec</string>
+    <string name="title_activity_game_list">GameList</string>
+    <string name="bCreate">Create</string>
+    <string name="bRefresh">Refresh</string>
+    <string name="bStartGame">Start Game</string>
+    <string name="title_activity_game_lobby">GameLobby</string>
+    <string name="game_lobby_player_label">Player Queue:</string>
+    <string name="game_lobby_player_list"></string>
+    <string name="debug_string">&quot;&quot;</string>
+    <string name="username_string">&quot;&quot;</string>
+    <string name="game_create_debug">&quot;&quot;</string>
+    <string name="current_xp"></string>
+    <string name="you_have">You have,</string>
+    <string name="tag_button">TAG!</string>
+    <string name="join_button">Join</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="join_game_title">Do you want to join this game?</string>
+    <string name="title_activity_it">ItActivity</string>
+    <string name="title_activity_runner">RunnerActivity</string>
+    <string name="title_activity_game_results">GameResults</string>
+
+</resources>

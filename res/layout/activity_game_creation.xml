@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rg_field" />
+    <RadioGroup
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RadioButton android:id="@+id/radio_field_sm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_field_sm"
+        android:onClick="fieldSizeSelected"/>
+    <RadioButton android:id="@+id/radio_field_md"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_field_md"
+        android:onClick="fieldSizeSelected"/>
+    <RadioButton android:id="@+id/radio_field_lg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_field_lg"
+        android:onClick="fieldSizeSelected"/>
+	</RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rg_numit" />
+    <RadioGroup
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RadioButton android:id="@+id/radio_num_it_sm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_num_it_sm"
+        android:onClick="numItSelected"/>
+    <RadioButton android:id="@+id/radio_num_it_md"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_num_it_md"
+        android:onClick="numItSelected"/>
+    <RadioButton android:id="@+id/radio_num_it_lg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_num_it_lg"
+        android:onClick="numItSelected"/>
+	</RadioGroup>
+	
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rg_duration" />
+    <RadioGroup
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RadioButton android:id="@+id/radio_duration_sm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_duration_sm"
+        android:onClick="durationSelected"/>
+    <RadioButton android:id="@+id/radio_duration_md"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_duration_md"
+        android:onClick="durationSelected"/>
+    <RadioButton android:id="@+id/radio_duration_lg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_duration_lg"
+        android:onClick="durationSelected"/>
+	</RadioGroup>
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="createGame" />
+
+</LinearLayout>

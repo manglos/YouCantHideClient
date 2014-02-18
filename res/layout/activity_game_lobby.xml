@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameLobby" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_lobby_player_label" />
+
+    <TextView
+        android:id="@+id/game_lobby_player_list"
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:text="@string/game_lobby_player_list"  />
+
+
+    <Button
+        android:id="@+id/bRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="refresh"
+        android:text="@string/bRefresh" />
+    <Button
+        android:id="@+id/bStartGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startGame"
+        android:text="@string/bStartGame" />
+
+</LinearLayout>
